@@ -1,8 +1,9 @@
-body{margin: 0;
+body{
+	margin: 0;
 	height: 100vh;
-background: linear-gradient(-45deg, #415800,#e568dc,#ffb374, #ef5f5f, #d840b6 );
-background-size: 400% 400%;
-animation: bg 12s ease infinite;}
+	background: linear-gradient(-45deg, #415800,#e568dc,#ffb374, #ef5f5f, #d840b6 );
+	background-size: 400% 400%;
+	animation: bg 12s ease infinite;}
 
 @keyframes bg{
 	0% {
@@ -20,8 +21,17 @@ h1{
 	color: red;	
 	text-align: center;
 	margin-bottom: 10rem;
+	font-family: ds-digital;
 }
 p{
 	color: red;
+	text-align: justify;
 	font-size: xx-large;
+	font-family: ds-digital;
 }
+@font-face {
+	font-family: 'Open Sans';
+	src: url('https://www.dafont.com/es/ds-digital.font') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+  }
