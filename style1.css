@@ -51,6 +51,13 @@ p{
 	src: url('https://www.dafont.com/es/ds-digital.font') format('truetype');
 	font-style: normal;
 	font-weight: normal;
+  }
+    footer img{
+    width: 4rem;
+   display: block;
+   margin:0 auto;
+    
+    
   } 
     @media (max-width: 768px) {
     div {
