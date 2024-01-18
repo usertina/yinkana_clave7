@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-    width: 700px; /* Ajusta el ancho según sea necesario */
+    width: 500px; /* Ajusta el ancho según sea necesario */
     height: 500px; /* Ajusta la altura según sea necesario */
     border-radius: 15px; /* Agrega bordes redondos */
     overflow: hidden; /* Asegura que el contenido no sobresalga si es más grande que el contenedor */
