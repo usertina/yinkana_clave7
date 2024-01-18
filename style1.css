@@ -61,6 +61,8 @@ p {
 	font-family:'ds-digital', sans-serif;
 	text-decoration: none;   
 }
+a{color: red;
+text-align: center;}
 #contenedor {
     position: relative;
     cursor: pointer;
