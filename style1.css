@@ -3,46 +3,44 @@ body {
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
-    background: -webkit-linear-gradient(-45deg, #415800, #e568dc, #ffb374, #ef5f5f, #d840b6);
-    background: linear-gradient(-45deg, #415800, #e568dc, #ffb374, #ef5f5f, #d840b6);
-    background-size: 400% 400%;
-    animation: bg 12s ease infinite;
-    font-family: 'system-ui', Arial, sans-serif;
+    align-items: center;   
 }
 
 .container {
     margin: 0;
-    width: 350px; /* Ajusta el ancho según sea necesario */
-    height: 500px; /* Ajusta la altura según sea necesario */
-    border-radius: 15px; /* Agrega bordes redondos */
-    overflow: hidden; /* Asegura que el contenido no sobresalga si es más grande que el contenedor */
+    width: 350px;
+    height: 500px;
+    border-radius: 15px;
+    overflow: hidden;
     background: -webkit-linear-gradient(-45deg, #415800, #e568dc, #ffb374, #ef5f5f, #d840b6);
     background: linear-gradient(-45deg, #415800, #e568dc, #ffb374, #ef5f5f, #d840b6);
-    animation: bg 12s ease infinite;
+    -webkit-animation: bing 12s ease infinite;
+    animation: bing 12s ease infinite;
     display: flex;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box; /* Asegura que el ancho y alto incluyan el contenido y el borde */
 }
-
  div p {
     max-width: 100%;
     max-height: 100%; /* Ajusta la altura máxima según sea necesario */
-    border-radius: 15px; /* Ajusta según sea necesario para que coincida con el contenedor */
 }
-@keyframes bg {
+@keyframes bing {
     0% {
-        background-position: 0% 50%;
+        background-position: 0% 25%;
+    }
+    25% {
+        background-position: 25% 50%;
     }
     50% {
-        background-position: 100% 100%;
+        background-position: 50% 75%;
     }
-    100% {
-        background-position: 0% 50%;
+    75% {
+        background-position: 75% 100%;
     }
 }
 
-@-webkit-keyframes bg {
+@-webkit-keyframes bing {
     0% {
         background-position: 0% 50%;
     }
