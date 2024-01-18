@@ -28,6 +28,7 @@ p{
 	text-align: center;
 	font-size: xx-large;
 	font-family: ds-digital;
+	border: 0.3rem solid black;
 }
 @font-face {
 	font-family: 'Open Sans';
