@@ -46,6 +46,10 @@ p{
 	text-decoration: none;
 }
 
+div{
+    margin-left: auto;
+    margin-right: auto;
+}
 	@font-face {
 	font-family: 'ds-digital', sans-serif;
 	src: url('https://www.dafont.com/es/ds-digital.font') format('truetype');
