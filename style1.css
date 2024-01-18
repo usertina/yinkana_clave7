@@ -52,12 +52,12 @@ p{
 	font-style: normal;
 	font-weight: normal;
   } 
-  @media (max-width: 768px) {
+    @media (max-width: 768px) {
     div {
-        margin: auto; /* Ajustar el tamaño del texto según sea necesario */
+        margin: auto; 
     }
 
     p {
-        font-size: 1.2em; /* Ajustar el tamaño del texto según sea necesario */
+        font-size: 1.2em; 
     }
 }
