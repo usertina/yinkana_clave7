@@ -3,7 +3,9 @@ body{
 	height: 100vh;
 	background: linear-gradient(-45deg, #415800,#e568dc,#ffb374, #ef5f5f, #d840b6 );
 	background-size: 400% 400%;
-	animation: bg 12s ease infinite;}
+	animation: bg 12s ease infinite;
+	background: -webkit-linear-gradient(-45deg, #415800, #e568dc, #ffb374, #ef5f5f, #d840b6);
+    }
 
 @keyframes bg{
 	0% {
@@ -15,6 +17,17 @@ body{
 	100%{
 		background-position: 0% 50%;
 	}
+}
+@-webkit-keyframes bg {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
  
 h1{
@@ -28,7 +41,7 @@ p{
 	text-align: center;
 	font-size: xx-large;
 	font-family: ds-digital;
-	border: 0.3rem solid black;
+	
 }
 @font-face {
 	font-family: 'Open Sans';
