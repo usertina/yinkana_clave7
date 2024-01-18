@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;   
@@ -18,7 +18,8 @@ main {
     animation: bing 12s ease infinite;
     background-size: 400% 400%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     box-sizing: border-box; /* Asegura que el ancho y alto incluyan el contenido y el borde */
 }
@@ -53,16 +54,37 @@ main {
         background-position: 0% 50%;
     }
 }
-
-
-p{
+p {
 	color: red;
 	text-align: center;
 	font-size: xx-large;
 	font-family:'ds-digital', sans-serif;
-	text-decoration: none;
-   
+	text-decoration: none;   
 }
+#contenedor {
+    position: relative;
+    cursor: pointer;
+}
+#contenedorPrincipal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    min-height: 100vh; /* Asegura que el contenedor principal tenga al menos el 100% de la altura de la ventana gráfica */
+}
+
+#enlaceOculto {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+#contenedor:hover #enlaceOculto {
+    opacity: 1;
+}
+
 	@font-face {
 	font-family: 'ds-digital', sans-serif;
 	src: url('https://www.dafont.com/es/ds-digital.font') format('truetype');
