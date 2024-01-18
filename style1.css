@@ -44,11 +44,13 @@ p{
 	font-size: xx-large;
 	font-family:'ds-digital', sans-serif;
 	text-decoration: none;
+    margin-left: 5rem;
+    margin-right: 5rem;
 }
 
 div{
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
 }
 	@font-face {
 	font-family: 'ds-digital', sans-serif;
