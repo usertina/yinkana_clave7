@@ -46,14 +46,18 @@ p{
 	text-decoration: none;
    
 }
-
-div{
-    
-    margin-right: 5rem;
-}
 	@font-face {
 	font-family: 'ds-digital', sans-serif;
 	src: url('https://www.dafont.com/es/ds-digital.font') format('truetype');
 	font-style: normal;
 	font-weight: normal;
   } 
+  @media (max-width: 768px) {
+    div {
+        margin: auto; /* Ajustar el tamaño del texto según sea necesario */
+    }
+
+    p {
+        font-size: 1.2em; /* Ajustar el tamaño del texto según sea necesario */
+    }
+}
