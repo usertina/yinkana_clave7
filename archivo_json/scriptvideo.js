@@ -17,7 +17,7 @@ for(let i = 0; i < col; i++) {
 const draw = () => {
     ctx.fillStyle = "rgba(0,0,0,0.05)";
     ctx.fillRect(0, 0, width, height);
-    ctx.fillStyle = "#ABDB2A"; 
+    ctx.fillStyle = "#FF0000"; 
     ctx.font = `$(font)px system-iu`;
 
     for(let i = 0; i < arr.length; i++) {
