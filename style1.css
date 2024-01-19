@@ -21,7 +21,9 @@ main {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    box-sizing: border-box; /* Asegura que el ancho y alto incluyan el contenido y el borde */
+    box-sizing: border-box;
+     z-index: 1; /* Asegúrate de que el contenido tenga un z-index superior al canvas */
+      /* Asegura que el ancho y alto incluyan el contenido y el borde */
 }
  div p {
     font-size: 1.7rem;
@@ -93,6 +95,13 @@ text-align: center;}
 	font-style: normal;
 	font-weight: normal;
   }
+
+  canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 0; /* Asegúrate de que el canvas tenga un z-index inferior al contenido */
+ }
    
     @media (max-width: 768px) {
     div {
