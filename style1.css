@@ -87,7 +87,7 @@ text-align: center;}
     z-index: 0; /* Asegúrate de que el canvas tenga un z-index inferior al contenido */
  }
    
-    @media (max-width: 768px) {
+    @media (max-width: 768px) and (orientation: landscape) {
     div {
         margin: auto; 
     }
