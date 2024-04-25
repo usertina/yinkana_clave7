@@ -12,6 +12,8 @@ Información general
 
 pista de una yincana en la que aparece un código en binario con un enlace oculto qu te lleva a otra web para poder descifrarlo
 
+![clave7](https://github.com/usertina/yinkana_clave7/assets/124672039/eeb796f5-af5a-4684-b9cb-cbd590ce24e4)
+
 Tecnologías utilizadas
 
     HTML5
